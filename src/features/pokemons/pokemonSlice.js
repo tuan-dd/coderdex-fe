@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import apiService from "../../app/apiService";
-import { POKEMONS_PER_PAGE } from "../../app/config";
+// import { POKEMONS_PER_PAGE } from "../../app/config";
 export const getPokemons = createAsyncThunk(
   "pokemons/getPokemons",
   async ({ page, search, type }, { rejectWithValue }) => {
